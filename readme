@@ -1,0 +1,7 @@
+This demo shows how to continuously creat a class activation mapping (CAM) during the traing process with a custom learning rate schedule with MATLAB.
+Automatic differentiation enables you to customize CNN as you want. This example trains a network to classify data and simulteniously compute the CAM (Class Activation Mapping) of the validation data with the weights during the training. 
+This demo can visualize how the CNNs get to focus on the region in the image to classify which leads to the reability of the network and helps a lot in education of CNNs. Further, if the CNN is over-tuned to the dataset, the process also can be visualized. 
+The class activation mapping was done referring to the paper below. 
+Zhou, Bolei, Aditya Khosla, Agata Lapedriza, Aude Oliva, and Antonio Torralba. "Learning deep features for discriminative localization." In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 2921-2929. 2016.
+This demo using the custom training loop was made with the official document below.
+https://jp.mathworks.com/help/deeplearning/ug/train-network-using-custom-training-loop.html
